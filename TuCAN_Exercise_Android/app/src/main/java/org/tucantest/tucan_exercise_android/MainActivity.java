@@ -17,8 +17,6 @@ import android.view.MotionEvent;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Toast;
-
-
 import com.samsung.android.sdk.SsdkUnsupportedException;
 import com.samsung.android.sdk.pen.Spen;
 import com.samsung.android.sdk.pen.SpenSettingPenInfo;
@@ -28,7 +26,6 @@ import com.samsung.android.sdk.pen.document.SpenNoteDoc;
 import com.samsung.android.sdk.pen.document.SpenPageDoc;
 import com.samsung.android.sdk.pen.engine.SpenSimpleSurfaceView;
 import com.samsung.android.sdk.pen.engine.SpenSurfaceView;
-
 import java.io.IOException;
 import java.security.cert.Extension;
 import java.util.Locale;
@@ -60,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     @Override
     public boolean onTouch(View view, MotionEvent motionEvent) {
 
+        // All information about MotionEvents can be found here: https://developer.android.com/reference/android/view/MotionEvent.html
         // Get event time in nano seconds.
         long historicalEventTime = MotionEventExtensions.getEventTimeNano(motionEvent);
 
@@ -71,6 +69,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onHover(View view, MotionEvent motionEvent) {
+        // All information about MotionEvents can be found here: https://developer.android.com/reference/android/view/MotionEvent.html
+
         // Get event time in nano seconds.
         long historicalEventTime = MotionEventExtensions.getEventTimeNano(motionEvent);
 
