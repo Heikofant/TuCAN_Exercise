@@ -10,6 +10,7 @@ A sample CSV file is saved in [./TuCAN.csv](https://github.com/Heikofant/TuCAN_E
 * The recorder should record ALL touch and hover events, including historical events.
 * Record one "line" for each event, both "main" and "historical".
   * The variables that need to be stored are listed in the exemplary [CSV](https://github.com/Heikofant/TuCAN_Exercise/blob/master/TUCAN.csv) file.
+  * Information about <i>MotionEvent</i> can be found here: https://developer.android.com/reference/android/view/MotionEvent.html
 
 * Additionally, store the generated SPD-file.
 
