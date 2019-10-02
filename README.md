@@ -20,5 +20,5 @@ A sample CSV file is saved in [./TuCAN.csv](https://github.com/Heikofant/TuCAN_E
 
 The player should be able to replay a stored SPD-file and/or the custom CSV file.
 * Distinguish between touch and hover events in color
-  * <i>Optionally:</i> Add color gradient to hover events based on their distance (Z-axis)
+  * <i>Optionally:</i> Add color gradient to hover events based on the pen's distance to the surface
 * Add a pause/play button
